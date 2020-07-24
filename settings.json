@@ -1,0 +1,10 @@
+{
+   
+    "db_connect":"mongodb+srv://denis:1111@cluster0-z8t04.mongodb.net/<CMS>?retryWrites=true&w=majority",
+    "port": "1337",
+    "host": "zsu.gov.ua"
+}
+
+
+
+

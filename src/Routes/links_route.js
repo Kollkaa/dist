@@ -1,0 +1,1 @@
+"use strict";const e=require("express"),t=e.Router(),i=require("../Controllers/link_controller");t.get("/links/:page([0-9]+)",i.getLinks),t.route("/links/add").get(i.AddingForm).post(i.Addlink),t.route("/links/edit/:id").get(i.EditForm).post(i.EditLinks),t.post("/links/delete/:id",i.removeLink),module.exports=t;
